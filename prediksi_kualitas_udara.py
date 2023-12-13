@@ -33,7 +33,7 @@ scaler = MinMaxScaler()
 model = load_model()
 
 # Tampilan Streamlit
-st.title("Model Deployment with Streamlit")
+st.title("PREDIKSI AQI 3 HARI KEDEPAN")
 
 # Slider untuk memasukkan nilai input
 slider_value = st.slider("Enter AQI", min_value=0, max_value=400, step=1)
